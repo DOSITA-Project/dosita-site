@@ -1177,3 +1177,15 @@ p{
   margin-bottom: 12px;
   box-shadow: var(--shadow-soft);
 }
+
+
+.news-list a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.news-list a:hover {
+  color: var(--accent-2);
+}
